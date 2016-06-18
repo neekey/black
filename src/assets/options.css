@@ -1,0 +1,39 @@
+body {
+    padding: 20px;
+}
+
+.options {
+    width: 80%;
+    margin: auto;
+}
+
+.new-rule-form {
+    margin-bottom: 40px;
+}
+
+.new-rule-form input[type=text] {
+    width: 85%;
+    display: inline-block;
+    color: #666;
+}
+
+.rule-list-title {
+    font-size: 14px;
+}
+
+.rule-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.rule-list input[type=text] {
+    width: 85%;
+    display: inline-block;
+    color: #999;
+    box-shadow: none;
+    border-color: white;
+}
+.rule-list input[type=text]:focus,
+.rule-list input[type=text]:hover {
+    border-color: #ddd;
+}

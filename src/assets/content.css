@@ -1,0 +1,39 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.horror {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.horror-1 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/1.jpg);
+}
+.horror-2 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/2.jpg);
+}
+.horror-3 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/3.jpg);
+}
+.horror-4 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/4.jpg);
+}
+.horror-5 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/5.jpg);
+}
+.horror-6 {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/assets/horrors/6.jpg);
+}
+
+.warn-tip {
+    text-shadow: 1px 1px 2px #666;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
